@@ -10,6 +10,7 @@ mkdir -p sigdigger
 
 cd sigutils
 cmake ../../sigutils
+make clean
 make -j $cores
 sudo make install
 sudo ldconfig
@@ -17,6 +18,7 @@ cd ..
 
 cd suscan
 cmake ../../suscan
+make clean
 make -j $cores
 sudo make install
 sudo ldconfig
@@ -24,6 +26,7 @@ cd ..
 
 cd suwidgets
 qmake ../../SuWidgets
+make clean
 make -j $cores
 sudo make install
 sudo ldconfig
@@ -31,6 +34,7 @@ cd ..
 
 cd sigdigger
 qmake ../../SigDigger
+make clean
 make -j $cores
 sudo make install
 sudo ldconfig
