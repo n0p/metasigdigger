@@ -1,0 +1,16 @@
+[submodule "sigutils"]
+	path = sigutils
+	url = https://github.com/BatchDrake/sigutils.git
+	branch = develop
+[submodule "SuWidgets"]
+	path = SuWidgets
+	url = https://github.com/BatchDrake/SuWidgets.git
+	branch = develop
+[submodule "suscan"]
+	path = suscan
+	url = https://github.com/BatchDrake/suscan.git
+	branch = develop
+[submodule "SigDigger"]
+	path = SigDigger
+	url = https://github.com/BatchDrake/SigDigger.git
+	branch = develop
